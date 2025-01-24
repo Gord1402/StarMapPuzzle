@@ -64,8 +64,7 @@ document.addEventListener("DOMContentLoaded", async function () {
                 imageContainer.appendChild(img);
             });
         } else {
-            // Not enough space, reduce r_height by half and try again
-            r_height /= 1.2;
+            r_height /= 1.1;
             spreadImages();
         }
     }
@@ -83,11 +82,30 @@ document.addEventListener("DOMContentLoaded", async function () {
             img.style.zIndex = '1';
         });
 
+        img.addEventListener('touchstart', (e) => {
+            e.preventDefault();
+            isDragging = true;
+            const touch = e.touches[0];
+            offsetX = touch.clientX - img.getBoundingClientRect().left;
+            offsetY = touch.clientY - img.getBoundingClientRect().top;
+            img.style.cursor = 'grabbing';
+            img.style.zIndex = '1';
+        });
+
         document.addEventListener('mousemove', (e) => {
             if (isDragging) {
                 e.preventDefault();
                 img.style.left = `${e.clientX - offsetX}px`;
                 img.style.top = `${e.clientY - offsetY}px`;
+            }
+        });
+
+        document.addEventListener('touchmove', (e) => {
+            if (isDragging) {
+                e.preventDefault();
+                const touch = e.touches[0];
+                img.style.left = `${touch.clientX - offsetX}px`;
+                img.style.top = `${touch.clientY - offsetY}px`;
             }
         });
 
@@ -97,6 +115,37 @@ document.addEventListener("DOMContentLoaded", async function () {
                 isDragging = false;
                 img.style.zIndex = '0';
                 if (Math.sqrt(Math.pow((e.clientX - offsetX) - data.x * r_height, 2) + Math.pow((e.clientY - offsetY) - data.y * r_height, 2)) < 15) {
+                    img.style.left = `${data.x * r_height}px`;
+                    img.style.top = `${data.y * r_height}px`;
+                    img.style.zIndex = '-1';
+
+                    // Add the glow effect
+                    img.classList.add('glow-green');
+
+                    // Remove the glow effect after 1 second
+                    setTimeout(() => {
+                        img.classList.remove('glow-green');
+                    }, 1000);
+
+                    // Display the data.id text
+                    const textElement = createTextElement(names.filter((value) => {return value.abbr == data.id;})[0].name, data.x * r_height, data.y * r_height);
+                    imageContainer.appendChild(textElement);
+    
+                    setTimeout(() => {
+                        textElement.remove()
+                    }, 3000);
+                }
+                img.style.cursor = 'grab';
+            }
+        });
+
+        document.addEventListener('touchend', (e) => {
+            if (isDragging) {
+                e.preventDefault();
+                isDragging = false;
+                img.style.zIndex = '0';
+                const touch = e.changedTouches[0];
+                if (Math.sqrt(Math.pow((touch.clientX - offsetX) - data.x * r_height, 2) + Math.pow((touch.clientY - offsetY) - data.y * r_height, 2)) < 15) {
                     img.style.left = `${data.x * r_height}px`;
                     img.style.top = `${data.y * r_height}px`;
                     img.style.zIndex = '-1';
@@ -135,7 +184,6 @@ document.addEventListener("DOMContentLoaded", async function () {
                 setTimeout(() => {
                     img.classList.remove('glow-green');
                 }, 1000);
-                // Display the data.id text
                 const textElement = createTextElement(names.filter((value) => {return value.abbr == data.id;})[0].name, data.x * r_height, data.y * r_height);
                 imageContainer.appendChild(textElement);
 
@@ -147,18 +195,16 @@ document.addEventListener("DOMContentLoaded", async function () {
         });
     }
 
-    // Add event listener for the 's' key
     document.addEventListener('keydown', (e) => {
         if (e.key === 's') {
             moveAllImagesToCorrectSpots();
         }
     });
 
-    // Load JSON data from the external file
     fetch('images/labels.json')
         .then(response => response.json())
         .then(data => {
-            imageData = data; // Store the loaded JSON data
+            imageData = data;
             spreadImages();
             const mapImg = createImage('images/map.png', 0, 0, r_height, r_height);
             mapImg.style.zIndex = '-2';
