@@ -1,0 +1,530 @@
+[
+    {
+      "abbr": "And",
+      "name": "Андромеда",
+      "genitive": "Andromedae",
+      "en": "Андромеда (мифологический персонаж)"
+    },
+    {
+      "abbr": "Ant",
+      "name": "Насос",
+      "genitive": "Antliae",
+      "en": "воздушный насос"
+    },
+    {
+      "abbr": "Aps",
+      "name": "Райская Птица",
+      "genitive": "Apodis",
+      "en": "райская птица"
+    },
+    {
+      "abbr": "Aqr",
+      "name": "Водолей",
+      "genitive": "Aquarii",
+      "en": "водонос"
+    },
+    {
+      "abbr": "Aql",
+      "name": "Орёл",
+      "genitive": "Aquilae",
+      "en": "орёл"
+    },
+    {
+      "abbr": "Ara",
+      "name": "Жертвенник",
+      "genitive": "Arae",
+      "en": "алтарь"
+    },
+    {
+      "abbr": "Ari",
+      "name": "Овен",
+      "genitive": "Arietis",
+      "en": "баран"
+    },
+    {
+      "abbr": "Aur",
+      "name": "Возничий",
+      "genitive": "Aurigae",
+      "en": "возничий"
+    },
+    {
+      "abbr": "Boo",
+      "name": "Волопас",
+      "genitive": "Boötis",
+      "en": "пастух"
+    },
+    {
+      "abbr": "Cae",
+      "name": "Резец",
+      "genitive": "Caeli",
+      "en": "резец или гравировальный инструмент"
+    },
+    {
+      "abbr": "Cam",
+      "name": "Жираф",
+      "genitive": "Camelopardalis",
+      "en": "жираф"
+    },
+    {
+      "abbr": "Cnc",
+      "name": "Рак",
+      "genitive": "Cancri",
+      "en": "краб"
+    },
+    {
+      "abbr": "CVn",
+      "name": "Гончие Псы",
+      "genitive": "Canum Venaticorum",
+      "en": "охотничьи собаки"
+    },
+    {
+      "abbr": "CMa",
+      "name": "Большой Пёс",
+      "genitive": "Canis Majoris",
+      "en": "большой пёс"
+    },
+    {
+      "abbr": "CMi",
+      "name": "Малый Пёс",
+      "genitive": "Canis Minoris",
+      "en": "малый пёс"
+    },
+    {
+      "abbr": "Cap",
+      "name": "Козерог",
+      "genitive": "Capricorni",
+      "en": "морской козёл"
+    },
+    {
+      "abbr": "Car",
+      "name": "Киль",
+      "genitive": "Carinae",
+      "en": "киль"
+    },
+    {
+      "abbr": "Cas",
+      "name": "Кассиопея",
+      "genitive": "Cassiopeiae",
+      "en": "Кассиопея (мифологический персонаж)"
+    },
+    {
+      "abbr": "Cen",
+      "name": "Центавр",
+      "genitive": "Centauri",
+      "en": "кентавр"
+    },
+    {
+      "abbr": "Cep",
+      "name": "Цефей",
+      "genitive": "Cephei",
+      "en": "Цефей (мифологический персонаж)"
+    },
+    {
+      "abbr": "Cet",
+      "name": "Кит",
+      "genitive": "Ceti",
+      "en": "морское чудовище (кит)"
+    },
+    {
+      "abbr": "Cha",
+      "name": "Хамелеон",
+      "genitive": "Chamaeleontis",
+      "en": "хамелеон"
+    },
+    {
+      "abbr": "Cir",
+      "name": "Циркуль",
+      "genitive": "Circini",
+      "en": "циркуль"
+    },
+    {
+      "abbr": "Col",
+      "name": "Голубь",
+      "genitive": "Columbae",
+      "en": "голубь"
+    },
+    {
+      "abbr": "Com",
+      "name": "Волосы Вероники",
+      "genitive": "Comae Berenices",
+      "en": "волосы Вероники"
+    },
+    {
+      "abbr": "CrA",
+      "name": "Южная Корона",
+      "genitive": "Coronae Australis",
+      "en": "южная корона"
+    },
+    {
+      "abbr": "CrB",
+      "name": "Северная Корона",
+      "genitive": "Coronae Borealis",
+      "en": "северная корона"
+    },
+    {
+      "abbr": "Crv",
+      "name": "Ворон",
+      "genitive": "Corvi",
+      "en": "ворон"
+    },
+    {
+      "abbr": "Crt",
+      "name": "Чаша",
+      "genitive": "Crateris",
+      "en": "чаша"
+    },
+    {
+      "abbr": "Cru",
+      "name": "Южный Крест",
+      "genitive": "Crucis",
+      "en": "южный крест"
+    },
+    {
+      "abbr": "Cyg",
+      "name": "Лебедь",
+      "genitive": "Cygni",
+      "en": "лебедь или Северный Крест"
+    },
+    {
+      "abbr": "Del",
+      "name": "Дельфин",
+      "genitive": "Delphini",
+      "en": "дельфин"
+    },
+    {
+      "abbr": "Dor",
+      "name": "Золотая Рыба",
+      "genitive": "Doradus",
+      "en": "дорадо"
+    },
+    {
+      "abbr": "Dra",
+      "name": "Дракон",
+      "genitive": "Draconis",
+      "en": "дракон"
+    },
+    {
+      "abbr": "Equ",
+      "name": "Малый Конь",
+      "genitive": "Equulei",
+      "en": "пони"
+    },
+    {
+      "abbr": "Eri",
+      "name": "Эридан",
+      "genitive": "Eridani",
+      "en": "река Эридан (мифология)"
+    },
+    {
+      "abbr": "For",
+      "name": "Печь",
+      "genitive": "Fornacis",
+      "en": "химическая печь"
+    },
+    {
+      "abbr": "Gem",
+      "name": "Близнецы",
+      "genitive": "Geminorum",
+      "en": "близнецы"
+    },
+    {
+      "abbr": "Gru",
+      "name": "Журавль",
+      "genitive": "Gruis",
+      "en": "журавль"
+    },
+    {
+      "abbr": "Her",
+      "name": "Геркулес",
+      "genitive": "Herculis",
+      "en": "Геркулес (мифологический персонаж)"
+    },
+    {
+      "abbr": "Hor",
+      "name": "Часы",
+      "genitive": "Horologii",
+      "en": "маятниковые часы"
+    },
+    {
+      "abbr": "Hya",
+      "name": "Гидра",
+      "genitive": "Hydrae",
+      "en": "Гидра (мифологическое существо)"
+    },
+    {
+      "abbr": "Hyi",
+      "name": "Южная Гидра",
+      "genitive": "Hydri",
+      "en": "малая водяная змея"
+    },
+    {
+      "abbr": "Ind",
+      "name": "Индеец",
+      "genitive": "Indi",
+      "en": "индеец"
+    },
+    {
+      "abbr": "Lac",
+      "name": "Ящерица",
+      "genitive": "Lacertae",
+      "en": "ящерица"
+    },
+    {
+      "abbr": "Leo",
+      "name": "Лев",
+      "genitive": "Leonis",
+      "en": "лев"
+    },
+    {
+      "abbr": "LMi",
+      "name": "Малый Лев",
+      "genitive": "Leonis Minoris",
+      "en": "малый лев"
+    },
+    {
+      "abbr": "Lep",
+      "name": "Заяц",
+      "genitive": "Leporis",
+      "en": "заяц"
+    },
+    {
+      "abbr": "Lib",
+      "name": "Весы",
+      "genitive": "Librae",
+      "en": "весы"
+    },
+    {
+      "abbr": "Lup",
+      "name": "Волк",
+      "genitive": "Lupi",
+      "en": "волк"
+    },
+    {
+      "abbr": "Lyn",
+      "name": "Рысь",
+      "genitive": "Lyncis",
+      "en": "рысь"
+    },
+    {
+      "abbr": "Lyr",
+      "name": "Лира",
+      "genitive": "Lyrae",
+      "en": "лира / арфа"
+    },
+    {
+      "abbr": "Men",
+      "name": "Столовая Гора",
+      "genitive": "Mensae",
+      "en": "Столовая Гора (Южная Африка)"
+    },
+    {
+      "abbr": "Mic",
+      "name": "Микроскоп",
+      "genitive": "Microscopii",
+      "en": "микроскоп"
+    },
+    {
+      "abbr": "Mon",
+      "name": "Единорог",
+      "genitive": "Monocerotis",
+      "en": "единорог"
+    },
+    {
+      "abbr": "Mus",
+      "name": "Муха",
+      "genitive": "Muscae",
+      "en": "муха"
+    },
+    {
+      "abbr": "Nor",
+      "name": "Наугольник",
+      "genitive": "Normae",
+      "en": "уровень плотника"
+    },
+    {
+      "abbr": "Oct",
+      "name": "Октант",
+      "genitive": "Octantis",
+      "en": "октант (инструмент)"
+    },
+    {
+      "abbr": "Oph",
+      "name": "Змееносец",
+      "genitive": "Ophiuchi",
+      "en": "змееносец"
+    },
+    {
+      "abbr": "Ori",
+      "name": "Орион",
+      "genitive": "Orionis",
+      "en": "Орион (мифологический персонаж)"
+    },
+    {
+      "abbr": "Pav",
+      "name": "Павлин",
+      "genitive": "Pavonis",
+      "en": "павлин"
+    },
+    {
+      "abbr": "Peg",
+      "name": "Пегас",
+      "genitive": "Pegasi",
+      "en": "Пегас (мифологическое существо)"
+    },
+    {
+      "abbr": "Per",
+      "name": "Персей",
+      "genitive": "Persei",
+      "en": "Персей (мифологический персонаж)"
+    },
+    {
+      "abbr": "Phe",
+      "name": "Феникс",
+      "genitive": "Phoenicis",
+      "en": "феникс"
+    },
+    {
+      "abbr": "Pic",
+      "name": "Живописец",
+      "genitive": "Pictoris",
+      "en": "мольберт"
+    },
+    {
+      "abbr": "Psc",
+      "name": "Рыбы",
+      "genitive": "Piscium",
+      "en": "рыбы"
+    },
+    {
+      "abbr": "PsA",
+      "name": "Южная Рыба",
+      "genitive": "Piscis Austrini",
+      "en": "южная рыба"
+    },
+    {
+      "abbr": "Pup",
+      "name": "Корма",
+      "genitive": "Puppis",
+      "en": "корма"
+    },
+    {
+      "abbr": "Pyx",
+      "name": "Компас",
+      "genitive": "Pyxidis",
+      "en": "компас моряка"
+    },
+    {
+      "abbr": "Ret",
+      "name": "Сетка",
+      "genitive": "Reticuli",
+      "en": "сетка окуляра"
+    },
+    {
+      "abbr": "Sge",
+      "name": "Стрела",
+      "genitive": "Sagittae",
+      "en": "стрела"
+    },
+    {
+      "abbr": "Sgr",
+      "name": "Стрелец",
+      "genitive": "Sagittarii",
+      "en": "стрелец"
+    },
+    {
+      "abbr": "Sco",
+      "name": "Скорпион",
+      "genitive": "Scorpii",
+      "en": "скорпион"
+    },
+    {
+      "abbr": "Scl",
+      "name": "Скульптор",
+      "genitive": "Sculptoris",
+      "en": "скульптор"
+    },
+    {
+      "abbr": "Sct",
+      "name": "Щит",
+      "genitive": "Scuti",
+      "en": "щит (Собеского)"
+    },
+    {
+      "abbr": "Ser",
+      "name": "Змея",
+      "genitive": "Serpentis",
+      "en": "змея"
+    },
+    {
+      "abbr": "Sex",
+      "name": "Секстант",
+      "genitive": "Sextantis",
+      "en": "секстант"
+    },
+    {
+      "abbr": "Tau",
+      "name": "Телец",
+      "genitive": "Tauri",
+      "en": "бык"
+    },
+    {
+      "abbr": "Tel",
+      "name": "Телескоп",
+      "genitive": "Telescopii",
+      "en": "телескоп"
+    },
+    {
+      "abbr": "Tri",
+      "name": "Треугольник",
+      "genitive": "Trianguli",
+      "en": "треугольник"
+    },
+    {
+      "abbr": "TrA",
+      "name": "Южный Треугольник",
+      "genitive": "Trianguli Australis",
+      "en": "южный треугольник"
+    },
+    {
+      "abbr": "Tuc",
+      "name": "Тукан",
+      "genitive": "Tucanae",
+      "en": "тукан"
+    },
+    {
+      "abbr": "UMa",
+      "name": "Большая Медведица",
+      "genitive": "Ursae Majoris",
+      "en": "большая медведица"
+    },
+    {
+      "abbr": "UMi",
+      "name": "Малая Медведица",
+      "genitive": "Ursae Minoris",
+      "en": "малая медведица"
+    },
+    {
+      "abbr": "Vel",
+      "name": "Паруса",
+      "genitive": "Velorum",
+      "en": "паруса"
+    },
+    {
+      "abbr": "Vir",
+      "name": "Дева",
+      "genitive": "Virginis",
+      "en": "дева или девственница"
+    },
+    {
+      "abbr": "Vol",
+      "name": "Летучая Рыба",
+      "genitive": "Volantis",
+      "en": "летучая рыба"
+    },
+    {
+      "abbr": "Vul",
+      "name": "Лисичка",
+      "genitive": "Vulpeculae",
+      "en": "лиса"
+    }
+  ]
